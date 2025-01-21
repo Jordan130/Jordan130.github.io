@@ -225,13 +225,16 @@ section {
  }
 
  .services-container .services-box {
-    flex: 1 1 30rem;
+    
+    width: 40rem;    /* Explicit width */
+    height: 40rem;    /* Automatically adjust height based on content */
     background: var(--snd-bg-color);
     padding: 3rem 2rem 4rem;
     text-align: center;
     border: .2rem solid var(--bg-color);
     transition: .5s ease;
- }
+}
+
 
  .services-container .services-box:hover {
     border-color: var(--main-color);
