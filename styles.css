@@ -272,6 +272,8 @@ section {
 
 .portfolio-container .portfolio-box {
     position: relative;
+    width: 400px; /* Set a fixed width */
+    height: 300px; /* Set a fixed height */
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
